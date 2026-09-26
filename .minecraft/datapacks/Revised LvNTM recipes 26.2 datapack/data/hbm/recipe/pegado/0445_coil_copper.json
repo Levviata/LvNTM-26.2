@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "hbm:wire_fine_mingrade",
+    "C": "#c:ingots/steel"
+  },
+  "pattern": [
+    "AAA",
+    "ACA",
+    "AAA"
+  ],
+  "result": {
+    "id": "hbm:coil_copper",
+    "count": 2
+  }
+}

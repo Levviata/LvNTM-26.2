@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "hbm:plate_bismuth",
+    "B": "hbm:meteorite_sword_etched",
+    "C": "hbm:ingot_polonium",
+    "D": "hbm:ingot_u235"
+  },
+  "pattern": [
+    "ADA",
+    "CBC",
+    "ADA"
+  ],
+  "result": {
+    "id": "hbm:meteorite_sword_bred"
+  }
+}

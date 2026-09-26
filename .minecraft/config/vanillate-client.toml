@@ -1,0 +1,300 @@
+#Master switch for Vanillate's instanced visuals. Nothing is visualized until this is true.
+enabled = true
+
+[block_entities]
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:bell" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:chest" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:shulker_box" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:trapped_chest" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:ender_chest" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:copper_golem_statue" = "DEFAULT"
+
+[entities]
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:glow_squid" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:rabbit" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:cod" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:squid" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:chest_minecart" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:evoker_fangs" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:guardian" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:illusioner" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:bamboo_chest_raft" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:ravager" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:parrot" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:fox" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:donkey" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:pig" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:command_block_minecart" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:copper_golem" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:splash_potion" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:wither" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:endermite" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:cherry_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:pillager" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:blaze" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:cave_spider" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:trader_llama" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:jungle_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:oak_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:vex" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:axolotl" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:zombie_villager" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:phantom" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:creaking" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:tnt_minecart" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:evoker" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:block_display" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:spruce_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:dark_oak_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:spruce_chest_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:armor_stand" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:enderman" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:mangrove_chest_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:firework_rocket" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:breeze" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:vindicator" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:polar_bear" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:mule" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:glow_item_frame" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:item_frame" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:oak_chest_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:mangrove_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:witch" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:experience_bottle" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:iron_golem" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:hoglin" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:furnace_minecart" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:tropical_fish" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:llama_spit" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:wolf" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:bat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:mooshroom" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:acacia_chest_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:zombie" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:slime" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:pale_oak_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:bamboo_raft" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:end_crystal" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:experience_orb" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:ender_pearl" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:ocelot" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:eye_of_ender" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:leash_knot" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:sulfur_cube" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:egg" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:dolphin" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:piglin_brute" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:jungle_chest_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:cow" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:magma_cube" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:sheep" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:parched" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:wandering_trader" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:giant" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:villager" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:camel" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:skeleton" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:silverfish" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:warden" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:tnt" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:bogged" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:sniffer" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:hopper_minecart" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:cat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:snowball" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:item" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:zombie_horse" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:strider" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:ghast" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:elder_guardian" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:spectral_arrow" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:allay" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:creeper" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:skeleton_horse" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:trident" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:zombified_piglin" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:dark_oak_chest_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:cherry_chest_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:horse" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:birch_chest_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:pufferfish" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:spider" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:arrow" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:item_display" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:husk" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:salmon" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:wither_skeleton" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:acacia_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:snow_golem" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:shulker" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:tadpole" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:armadillo" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:drowned" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:llama" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:stray" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:chicken" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:zombie_nautilus" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:turtle" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:fishing_bobber" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:falling_block" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:bee" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:birch_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:pale_oak_chest_boat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:zoglin" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:painting" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:nautilus" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:goat" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:panda" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:happy_ghast" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:piglin" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:minecart" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:spawner_minecart" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:frog" = "DEFAULT"
+	#Allowed Values: DEFAULT, DISABLE, FORCE_ENABLE
+	"minecraft:lingering_potion" = "DEFAULT"

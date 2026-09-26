@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hbm:meteorite_sword_fused",
+    "hbm:egg_balefire_shard"
+  ],
+  "result": {
+    "id": "hbm:meteorite_sword_baleful"
+  }
+}

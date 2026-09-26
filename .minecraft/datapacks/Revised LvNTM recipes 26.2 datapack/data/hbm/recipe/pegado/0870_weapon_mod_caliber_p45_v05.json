@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "#hbm:gun_mechanisms/gun_metal",
+    "B": "hbm:weapon_mod_generic_iron_dura",
+    "C": "hbm:weapon_mod_generic_iron_damage",
+    "D": "hbm:ammo_standard_p45_du"
+  },
+  "pattern": [
+    " A ",
+    "BDC",
+    " A "
+  ],
+  "result": {
+    "id": "hbm:weapon_mod_caliber_p45"
+  }
+}

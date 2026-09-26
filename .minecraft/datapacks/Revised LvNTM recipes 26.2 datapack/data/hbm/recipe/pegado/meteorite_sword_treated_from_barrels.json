@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#hbm:tools/chemistry_set",
+    "hbm:meteorite_sword_machined",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "hbm:fluid_content": {
+          "type": "hbm:radiosolvent",
+          "amount": 16000,
+          "pressure": 0
+        }
+      },
+      "items": "hbm:fluid_barrel"
+    },
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "hbm:fluid_content": {
+          "type": "hbm:bloodhot",
+          "amount": 16000,
+          "pressure": 0
+        }
+      },
+      "items": "hbm:fluid_barrel"
+    }
+  ],
+  "result": {
+    "id": "hbm:meteorite_sword_treated"
+  }
+}

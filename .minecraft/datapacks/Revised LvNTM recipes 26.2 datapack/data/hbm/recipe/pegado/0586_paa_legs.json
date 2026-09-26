@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hbm:neutron_reflector",
+    "hbm:neutron_reflector",
+    "hbm:hazmat_paa_legs"
+  ],
+  "result": {
+    "id": "hbm:paa_legs"
+  }
+}

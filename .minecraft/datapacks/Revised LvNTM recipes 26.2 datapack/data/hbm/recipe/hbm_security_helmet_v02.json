@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "hbm:ingot_steel",
+    "B": "#hbm:ingots/any_plastic",
+    "G": "hbm:reinforced_laminate_pane",
+    "K": "hbm:plate_kevlar",
+    "S": "hbm:plate_steel"
+  },
+  "pattern": [
+    " S ",
+    "AKA",
+    "BGB"
+  ],
+  "result": {
+    "id": "hbm:security_helmet"
+  }
+}

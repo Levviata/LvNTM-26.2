@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hbm:canteen_vodka",
+    "hbm:powder_lead",
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "minecraft:potion_contents": "minecraft:strong_healing"
+      },
+      "items": "minecraft:potion"
+    }
+  ],
+  "result": {
+    "id": "hbm:scrumpy"
+  }
+}

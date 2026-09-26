@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "hbm:undefined"
+  },
+  "pattern": [
+    "  A",
+    " A ",
+    "A  "
+  ],
+  "result": {
+    "id": "hbm:wand_s"
+  }
+}

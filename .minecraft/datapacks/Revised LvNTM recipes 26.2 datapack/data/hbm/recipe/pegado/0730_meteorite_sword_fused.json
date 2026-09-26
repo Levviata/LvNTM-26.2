@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "hbm:plate_dalekanium",
+    "B": "hbm:meteorite_sword_irradiated",
+    "C": "hbm:ingot_meteorite",
+    "D": "hbm:ingot_starmetal"
+  },
+  "pattern": [
+    "ADA",
+    "CBC",
+    "ADA"
+  ],
+  "result": {
+    "id": "hbm:meteorite_sword_fused"
+  }
+}

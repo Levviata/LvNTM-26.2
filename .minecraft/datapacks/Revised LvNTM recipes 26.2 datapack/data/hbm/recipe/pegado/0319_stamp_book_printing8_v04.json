@@ -1,0 +1,14 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hbm:stamp_titanium_flat",
+    "hbm:gun_minigun",
+    "hbm:nuke_fstbmb",
+    "#c:ingots/euphemium",
+    "#c:ingots/schrabidium",
+    "hbm:flame_pony"
+  ],
+  "result": {
+    "id": "hbm:stamp_book_printing8"
+  }
+}

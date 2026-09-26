@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hbm:stamp_desh_flat",
+    "#c:dusts/dura_steel",
+    "#c:dusts/steel",
+    "hbm:powder_desh_mix",
+    "hbm:flame_opinion"
+  ],
+  "result": {
+    "id": "hbm:stamp_book_printing5"
+  }
+}

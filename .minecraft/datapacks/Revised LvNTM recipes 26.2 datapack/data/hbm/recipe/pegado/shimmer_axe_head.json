@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": "#hbm:plates_cast/any_resistant_alloy",
+    "K": "#hbm:storage_blocks/any_resistant_alloy",
+    "A": "#hbm:storage_blocks/any_plastic",
+    "C": "#hbm:ingots/any_resistant_alloy"
+  },
+  "pattern": [
+    "SCC",
+    "SAK",
+    "SCC"
+  ],
+  "result": {
+    "id": "hbm:shimmer_axe_head"
+  }
+}

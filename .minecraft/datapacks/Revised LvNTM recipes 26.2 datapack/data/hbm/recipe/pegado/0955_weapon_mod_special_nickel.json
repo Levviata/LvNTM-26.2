@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": "#c:ingots/aluminum",
+    "D": "hbm:undefined",
+    "F": "#hbm:gun_mechanisms/saturnite"
+  },
+  "pattern": [
+    "DFD",
+    "FBF",
+    "DFD"
+  ],
+  "result": {
+    "id": "hbm:weapon_mod_special_nickel"
+  }
+}

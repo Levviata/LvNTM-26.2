@@ -1,0 +1,45 @@
+[lbsm]
+	#Enables Less Bullshit Mode's alternate recipes.
+	enabled = false
+	#When enabled, this will replace schraranium with full schrabidium ingots in the transmutator's output
+	full_schrab = true
+	#When enabled, this will highly accelerate the speed at which nuclear waste disposal drums decay their contents. 60x faster than 528 mode and 5-12x faster than on normal mode.
+	shorter_decay = true
+	#When enabled, simplifies the recipe for armor sets like starmetal or schrabidium.
+	simple_armor_recipes = true
+	#Uses Less Bullshit Mode's simple tool recipe forms.
+	simple_tool_recipes = true
+	#Uses Less Bullshit Mode's simple crafting recipe forms.
+	simple_crafting = true
+	#Uses Less Bullshit Mode's simple chemical plant recipe forms.
+	simple_chemistry = true
+	#When enabled, enhances centrifuge outputs to make rare materials more common
+	simple_centrifuge = true
+	#When enabled, all anvil recipes are available at tier 1
+	unlock_anvil = true
+	#When enabled, makes some medicine recipes (like ones that require bismuth) much more affordable
+	simple_medicine = true
+	#When enabled, prevents crates from becoming radioactive
+	safe_crates = true
+
+[foreign_mods]
+	#Master switch for this mod's changes to other mods' recipes; each change also has its own entry. Takes effect on restart.
+	enabled = true
+	#If enabled, will change some of Mekanism's recipes.
+	mekanism = true
+	#If enabled, TechReborn's grinder turns a vanilla cinnabar block into one small cinnabar dust, the mercury this mod gets per block.
+	techreborn = true
+
+[expensive]
+	#It does what the name implies.
+	enabled = false
+
+[mode_528]
+	#The central toggle for 528 mode, required TRUE for most subsequent toggles to work.
+	enabled = false
+	#Sets some recipes to require pressurized input fluid
+	pressurized_recipes = true
+	#Requires most large machines to have a proper foundation, or else they tilt and break.
+	machine_gravity = true
+	#Keeps the RBMK dial for ReaSim boilers on, preventing use of non-ReaSim boiler columns and forcing the use of steam in-/outlets
+	force_reasim_boilers = true

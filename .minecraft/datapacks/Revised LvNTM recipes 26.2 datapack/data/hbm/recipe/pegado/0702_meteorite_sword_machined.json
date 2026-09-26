@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "hbm:circuit_crystal",
+    "B": "hbm:meteorite_sword_alloyed",
+    "G": "hbm:wire_dense_gold"
+  },
+  "pattern": [
+    "AGA",
+    "GBG",
+    "AGA"
+  ],
+  "result": {
+    "id": "hbm:meteorite_sword_machined"
+  }
+}

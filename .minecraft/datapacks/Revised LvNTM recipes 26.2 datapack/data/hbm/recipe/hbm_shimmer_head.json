@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "S": "#hbm:ingots/any_resistant_alloy",
+    "K": "#hbm:storage_blocks/any_resistant_alloy",
+    "A": "#hbm:storage_blocks/any_plastic"
+  },
+  "pattern": [
+    "SSS",
+    "KAK",
+    "SSS"
+  ],
+  "result": {
+    "id": "hbm:shimmer_head"
+  }
+}

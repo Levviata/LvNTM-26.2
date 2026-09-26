@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "minecraft:paper",
+    "#c:dyes/black",
+    "#c:dyes/red",
+    "hbm:coin_worm"
+  ],
+  "result": {
+    "id": "hbm:card_qos"
+  }
+}

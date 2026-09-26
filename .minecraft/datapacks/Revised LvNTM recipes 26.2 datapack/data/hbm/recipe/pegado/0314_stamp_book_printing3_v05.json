@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hbm:stamp_desh_flat",
+    "#c:ingots/titanium",
+    "#c:ingots/latex",
+    "#c:ingots/asbestos",
+    "minecraft:paper"
+  ],
+  "result": {
+    "id": "hbm:stamp_book_printing3"
+  }
+}

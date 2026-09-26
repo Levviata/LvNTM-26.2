@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "B": "hbm:plate_polymer",
+    "A": "hbm:part_generic",
+    "C": "hbm:circuit_chip_bismoid"
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "id": "hbm:crane_router",
+    "count": 4
+  }
+}

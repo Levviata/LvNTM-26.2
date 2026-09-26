@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "#c:dyes",
+    "B": "hbm:circuit_basic",
+    "C": "hbm:plate_iron"
+  },
+  "pattern": [
+    "A",
+    "B",
+    "C"
+  ],
+  "result": {
+    "id": "hbm:fluid_identifier_multi"
+  }
+}

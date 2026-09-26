@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "#c:ingots/steel",
+    "B": "hbm:part_generic",
+    "C": "hbm:circuit_basic"
+  },
+  "pattern": [
+    "AAA",
+    "BCB",
+    "AAA"
+  ],
+  "result": {
+    "id": "hbm:crane_splitter",
+    "count": 4
+  }
+}

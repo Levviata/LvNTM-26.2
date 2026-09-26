@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "T": "hbm:ingot_tungsten",
+    "P": "minecraft:piston",
+    "S": "hbm:plate_titanium",
+    "B": "minecraft:stone_bricks"
+  },
+  "pattern": [
+    "TPT",
+    "S S",
+    "BBB"
+  ],
+  "result": {
+    "id": "hbm:machine_ammo_press"
+  }
+}

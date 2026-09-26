@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "#c:ingots/starmetal",
+    "B": "hbm:det_nuke",
+    "C": "hbm:circuit_advanced",
+    "D": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "hbm:fluid_content": {
+          "type": "hbm:tritium",
+          "amount": 16000,
+          "pressure": 0
+        }
+      },
+      "items": "hbm:fluid_barrel"
+    },
+    "F": "hbm:boxcar"
+  },
+  "pattern": [
+    "ABA",
+    "CFC",
+    "ADA"
+  ],
+  "result": {
+    "id": "hbm:mp_warhead_15_boxcar"
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hbm:nugget_euphemium",
+    "hbm:watch",
+    "hbm:syringe_empty"
+  ],
+  "result": {
+    "id": "hbm:syringe_mkunicorn"
+  }
+}

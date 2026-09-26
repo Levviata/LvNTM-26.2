@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hbm:undefined",
+    "hbm:undefined"
+  ],
+  "result": {
+    "id": "hbm:fire_digamma",
+    "count": 64
+  }
+}

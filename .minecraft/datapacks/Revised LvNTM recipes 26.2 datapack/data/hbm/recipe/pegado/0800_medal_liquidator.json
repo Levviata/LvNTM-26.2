@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "hbm:nugget_au198",
+    "B": "hbm:ingot_boron",
+    "C": "hbm:coin_radiation"
+  },
+  "pattern": [
+    "ABA",
+    "BCB",
+    "ABA"
+  ],
+  "result": {
+    "id": "hbm:medal_liquidator"
+  }
+}

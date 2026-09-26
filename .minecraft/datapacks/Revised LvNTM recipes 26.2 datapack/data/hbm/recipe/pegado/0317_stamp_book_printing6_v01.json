@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "hbm:stamp_stone_flat",
+    "#c:dusts/cadmium",
+    "#c:ingots/ferrouranium",
+    "#c:ingots/fiberglass",
+    "hbm:flame_conspiracy"
+  ],
+  "result": {
+    "id": "hbm:stamp_book_printing6"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "hbm:coil_copper",
+    "C": "#c:plates/iron"
+  },
+  "pattern": [
+    " A ",
+    "ACA",
+    " A "
+  ],
+  "result": {
+    "id": "hbm:coil_copper_torus",
+    "count": 2
+  }
+}

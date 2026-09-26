@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "#hbm:gun_mechanisms/weapon_steel",
+    "B": "hbm:weapon_mod_generic_desh_dura",
+    "C": "hbm:weapon_mod_generic_desh_damage",
+    "D": "hbm:ammo_standard_r762_fmj"
+  },
+  "pattern": [
+    " A ",
+    "BDC",
+    " A "
+  ],
+  "result": {
+    "id": "hbm:weapon_mod_caliber_r762"
+  }
+}

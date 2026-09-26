@@ -1,0 +1,36 @@
+#Select the backend to use. Set to "DEFAULT" to let Flywheel decide.
+backend = "DEFAULT"
+#Enable or disable instance update limiting with distance.
+limitUpdates = true
+#Number of worker threads for the Flywheel ForkJoinPool. Positive: absolute count, clamped to availableProcessors. Zero or negative: relative to availableProcessors (0 = all cores, -1 = leaves one for the render thread, -N = leaves N). Result is always at least 1; a result of 1 routes to the serial executor. Requires a game restart to take effect.
+# Default: -1
+# Range: -12 ~ 12
+workerThreads = -1
+#If true, use the JVM-wide ForkJoinPool.commonPool() instead of a dedicated Flywheel pool. Saves threads but other code submitting to the common pool (incl. misbehaving mods) can stall Flywheel sync points. Requires a game restart to take effect.
+useCommonPool = false
+#Extract entity render states on Flywheel's worker threads for renderers known to allow it (vanilla's, and mods' implementing ConcurrentRenderStateExtraction). Disable if a mod hooks entity extraction unsafely.
+concurrentExtraction = true
+
+#Config options for Flywheel's built-in backends.
+[flw_backends]
+	#How smooth Flywheel's shader-based lighting should be. May have a large performance impact.
+	#Allowed Values: FLAT, TRI_LINEAR, SMOOTH, SMOOTH_INNER_FACE_CORRECTED
+	lightSmoothness = "SMOOTH"
+	#How much chunk terrain Flywheel takes over. OFF: vanilla/Sodium draws everything. TRANSLUCENT_OIT: composite only the translucent layer through Flywheel's order-independent transparency so translucent instances sort against translucent terrain (any backend, Sodium or vanilla). OPAQUE: take over only OPAQUE terrain (solid + cutout) via GPU-driven MDI, leaving translucent to Sodium with no terrain OIT -- the culling-benchmark mode; requires Sodium and a gpu-driven backend, else it falls back to OFF. FULL: take over OPAQUE terrain plus translucent OIT -- requires Sodium and a gpu-driven backend, else it falls back to TRANSLUCENT_OIT.
+	#Allowed Values: OFF, TRANSLUCENT_OIT, OPAQUE, FULL
+	terrain = "TRANSLUCENT_OIT"
+	#Order-independent transparency path. AUTO: best available (MLAB on interlock hardware, else the wavelet chain). WAVELET: the multi-pass moment/wavelet chain. KBUFFER/MLAB/ABUFFER: single-geometry-pass insert strategies (MLAB/ABUFFER require fragment-shader interlock / atomics; fall back to wavelet otherwise).
+	#Allowed Values: AUTO, WAVELET, KBUFFER, MLAB, ABUFFER
+	oitPath = "AUTO"
+	#Translucent-layer budget per insert path (0 = the mode's preset: k-buffer 4, MLAB 8, A-buffer 16). For k-buffer/MLAB the sample count; for the A-buffer the resolve's nearest-N cap.
+	# Default: 0
+	# Range: 0 ~ 32
+	oitLayersKbuffer = 0
+	# Default: 0
+	# Range: 0 ~ 32
+	oitLayersMlab = 0
+	# Default: 0
+	# Range: 0 ~ 32
+	oitLayersAbuffer = 0
+	#Weather accuracy under OIT, all paths. false: rain/snow render once into a resolved layer (vanilla-fabulous semantics; far cheaper in rain). true: rain/snow are per-fragment OIT producers that depth-sort exactly against other translucents.
+	oitExactWeather = false

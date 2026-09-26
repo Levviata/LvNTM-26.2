@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "hbm:powder_magic",
+    "B": "hbm:gem_rad",
+    "C": "minecraft:bone"
+  },
+  "pattern": [
+    "BBB",
+    "CAC",
+    "BBB"
+  ],
+  "result": {
+    "id": "hbm:egg_balefire_shard"
+  }
+}

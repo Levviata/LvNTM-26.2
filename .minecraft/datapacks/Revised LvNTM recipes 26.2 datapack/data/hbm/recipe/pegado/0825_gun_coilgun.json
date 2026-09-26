@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "#hbm:receivers_heavy/any_bismoid_bronze",
+    "B": "hbm:circuit_capacitor_board",
+    "C": "#hbm:shells/copper",
+    "D": "hbm:coil_copper_torus",
+    "F": "#hbm:grips/any_hard_plastic",
+    "G": "#hbm:gun_mechanisms/saturnite",
+    "H": "#hbm:stocks/any_hard_plastic"
+  },
+  "pattern": [
+    " AB",
+    "CDD",
+    "FGH"
+  ],
+  "result": {
+    "id": "hbm:gun_coilgun"
+  }
+}

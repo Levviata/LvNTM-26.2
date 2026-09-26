@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "#c:ingots/rubber",
+    "S": "hbm:plate_iron",
+    "B": "#c:dyes/red"
+  },
+  "pattern": [
+    " AS",
+    "ABA",
+    " A "
+  ],
+  "result": {
+    "id": "hbm:defuser"
+  }
+}

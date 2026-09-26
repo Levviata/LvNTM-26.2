@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "minecraft:block_state": {
+          "variant": "black"
+        }
+      },
+      "items": "hbm:platemetal"
+    }
+  ],
+  "result": {
+    "id": "hbm:platemetal"
+  }
+}

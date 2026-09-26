@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "hbm:gun_minigun_dual",
+    "B": {
+      "neoforge:ingredient_type": "neoforge:components",
+      "components": {
+        "minecraft:custom_name": "{\"text\":\"Golden Egg\"}"
+      },
+      "items": "minecraft:egg"
+    },
+    "C": "hbm:wild_p",
+    "D": "#hbm:barrels_heavy/saturnite",
+    "F": "#hbm:receivers_heavy/saturnite",
+    "G": "#hbm:gun_mechanisms/saturnite",
+    "H": "#hbm:grips/any_hard_plastic",
+    "J": "hbm:ammo_bag"
+  },
+  "pattern": [
+    "ABC",
+    "DFG",
+    "HHJ"
+  ],
+  "result": {
+    "id": "hbm:gun_autoshotgun_heretic"
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "#hbm:barrels_light/any_bismoid_bronze",
+    "B": "#hbm:receivers_light/any_bismoid_bronze",
+    "C": "#hbm:stocks/any_hard_plastic",
+    "D": "hbm:undefined",
+    "F": "#hbm:gun_mechanisms/saturnite",
+    "G": "#hbm:grips/any_hard_plastic"
+  },
+  "pattern": [
+    "DDD",
+    "ABC",
+    "DFG"
+  ],
+  "result": {
+    "id": "hbm:gun_n_i_4_n_i"
+  }
+}

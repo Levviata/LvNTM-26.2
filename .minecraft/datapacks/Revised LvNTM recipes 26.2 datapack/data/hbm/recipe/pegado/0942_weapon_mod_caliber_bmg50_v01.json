@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "#hbm:gun_mechanisms/saturnite",
+    "B": "hbm:weapon_mod_generic_bigmt_dura",
+    "C": "hbm:weapon_mod_generic_bigmt_damage",
+    "D": "hbm:ammo_standard_bmg50_sp"
+  },
+  "pattern": [
+    " A ",
+    "BDC",
+    " A "
+  ],
+  "result": {
+    "id": "hbm:weapon_mod_caliber_bmg50"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "hbm:plate_polymer",
+    "C": "#c:dusts/aluminum",
+    "B": "hbm:wire_fine_copper"
+  },
+  "pattern": [
+    "A",
+    "C",
+    "B"
+  ],
+  "result": {
+    "id": "hbm:circuit_capacitor"
+  }
+}

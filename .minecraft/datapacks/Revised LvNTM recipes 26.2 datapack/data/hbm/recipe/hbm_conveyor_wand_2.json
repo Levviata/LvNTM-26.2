@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": "#c:ingots/rubber",
+    "P": "hbm:plate_iron",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "RPR",
+    "I I",
+    "RPR"
+  ],
+  "result": {
+    "id": "hbm:conveyor_wand",
+    "count": 64
+  }
+}

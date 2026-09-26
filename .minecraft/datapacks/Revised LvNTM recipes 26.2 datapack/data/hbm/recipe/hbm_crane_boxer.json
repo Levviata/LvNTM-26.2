@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "#minecraft:planks",
+    "B": "hbm:part_generic",
+    "C": "hbm:conveyor_wand"
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CCC"
+  ],
+  "result": {
+    "id": "hbm:crane_boxer",
+    "count": 4
+  }
+}

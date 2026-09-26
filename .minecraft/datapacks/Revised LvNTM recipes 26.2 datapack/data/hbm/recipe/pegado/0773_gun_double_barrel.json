@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "minecraft:skull",
+    "B": "#hbm:barrels_light/saturnite",
+    "C": "#hbm:receivers_light/saturnite",
+    "D": "#hbm:gun_mechanisms/saturnite",
+    "E": "#hbm:stocks/any_hard_plastic",
+    "F": "#hbm:grips/any_hard_plastic"
+  },
+  "pattern": [
+    " A ",
+    "BCE",
+    "BDF"
+  ],
+  "result": {
+    "id": "hbm:gun_double_barrel"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "R": "hbm:plant_item_rope",
+    "P": "hbm:plate_iron",
+    "I": "minecraft:iron_ingot"
+  },
+  "pattern": [
+    "RPR",
+    "I I",
+    "RPR"
+  ],
+  "result": {
+    "id": "hbm:conveyor_wand",
+    "count": 32
+  }
+}

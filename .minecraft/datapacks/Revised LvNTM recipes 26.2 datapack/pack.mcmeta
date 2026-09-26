@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "min_format": [
+      107,
+      1
+    ],
+    "max_format": [
+      107,
+      1
+    ],
+    "description": "Pegado recipe conversion for NTM Next 26.2"
+  }
+}

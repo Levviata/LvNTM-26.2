@@ -1,0 +1,83 @@
+[conveyor]
+	#Nearby conveyor objects required to trigger an anti-cram burst.
+	# Default: 25
+	# Range: > -2147483648
+	cram_max = 25
+	#Whether anti-cram bursts break the conveyor belt under objects older than 400 ticks.
+	cram_breaks_belt = true
+
+[doors]
+	#Require redstone or remote control to operate large doors by hand, except the water door.
+	ultra_larp_mode = false
+
+[entities]
+	#Has bomber planes spawn closer to their target for smaller render distances.
+	bomber_short_approach = false
+
+[debug]
+	#Enable debugging mode
+	profiling_logs = false
+	#Logs uses of the detonator, nuclear explosions, missile launches, grenades, etc.
+	extended_logging = false
+	#Allows glyphid waypoints to be seen, mainly used for debugging, also useful as an aid against them
+	waypoints = false
+
+[radiation]
+	#Ticks between radiation simulation steps. Consumed once at startup.
+	# Default: 1
+	# Range: > 1
+	tick_rate = 1
+	#Ticks between item/inventory hazard applications.
+	# Default: 5
+	# Range: > 1
+	hazard_rate = 5
+	# Default: 2
+	# Range: > 1
+	item_hazard_drop_tickrate = 2
+	#Audit every loaded container every 20 ticks, so an armed item that left a mod's opaque storage without notifying still detonates. Costs a walk of all loaded chunks and entities.
+	unstable_recovery_sweep = false
+
+[explosions]
+	#Seconds after which a reloaded MK3 explosion gives up. 0 = no limit
+	# Default: 0
+	# Range: > 0
+	unloaded_lifespan_seconds = 0
+	#Columns per tick the MK3 spiral steps
+	# Default: 1024
+	# Range: > 1
+	mk3_columns_per_tick = 1024
+	#Minimum amount of milliseconds per tick allocated for mk5 chunk processing
+	# Default: 50
+	# Range: > 1
+	mk5_millis_per_tick = 50
+	#How many ticks to wait for the next fallout chunk computation
+	# Default: 4
+	# Range: > 0
+	fallout_delay_ticks = 4
+	#Chunks a blast/fallout may load concurrently. 0 = auto (cpu cores * 8, minimum 64)
+	# Default: 0
+	# Range: 0 ~ 65536
+	chunks_in_flight = 0
+	#Configures the algorithm of mk5 explosion. 0 = Legacy, 1 = Threaded DDA, 2 = Threaded DDA with damage accumulation.
+	# Default: 2
+	# Range: 0 ~ 2
+	mk5_algorithm = 2
+	#Bomb ForkJoinPool workers; <=0 means processors + value (default -1 = processors - 1).
+	# Default: -1
+	# Range: > -2147483648
+	max_threads = -1
+
+[energy]
+	#Fraction of a power net's supply that foreign (FE) machines may take at normal priority, ahead of the leftover surplus they receive anyway. 0 keeps NTM machines strictly first.
+	# Default: 0.0
+	# Range: 0.0 ~ 1.0
+	foreign_export_reserve = 0.0
+
+[tools]
+	#Limits veinminer's recursive function. Usually not an issue, unless you're using bukkit which is especially sensitive for some reason.
+	# Default: 1000
+	# Range: > 1
+	veinminer_recursion_depth = 1000
+
+[damage]
+	compatibility_mode = false

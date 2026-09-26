@@ -1,0 +1,55 @@
+[render]
+	#If enabled, will try to use NTM's custom skyboxes.
+	skyboxes = true
+	cooling_tower_particles = true
+	#Draw pylon wires with sag instead of straight.
+	cable_hang = true
+	#Draw rebar as three rods instead of twelve.
+	simple_rebar = false
+
+[hud]
+	# Default: 0
+	# Range: > -2147483648
+	tool_indicator_x = 0
+	# Default: 0
+	# Range: > -2147483648
+	tool_indicator_y = 0
+	nuke_flash = true
+	nuke_shake = true
+	# Default: 0
+	# Range: > -2147483648
+	geiger_offset_horizontal = 0
+	# Default: 0
+	# Range: > -2147483648
+	geiger_offset_vertical = 0
+	# Default: 0
+	# Range: > -2147483648
+	info_position = 0
+	# Default: 0
+	# Range: > -2147483648
+	info_offset_horizontal = 0
+	# Default: 0
+	# Range: > -2147483648
+	info_offset_vertical = 0
+	#List an item's tags in advanced tooltips.
+	tooltip_ore_dict = true
+	#Show what an item adds to a custom nuke.
+	tooltip_custom_nuke = true
+	#List an RBMK column's diagnostic data while looking at it.
+	dodd_rbmk_diagnostic = true
+
+[interaction]
+	#Right-click with a held crate opens it; sneak to place it.
+	crate_opens_held = true
+	#Keep the recipe browser from offering the recipes that are meant to be found rather than looked up. They stay craftable.
+	recipe_viewer_hides_secrets = true
+
+[guns]
+	#Render held gun models with the game's FOV setting instead of the fixed gun FOV.
+	model_fov = false
+	visual_recoil = true
+	# Default: 1.0
+	# Range: 0.001 ~ 100.0
+	animation_speed = 1.0
+	#Use the hand-authored gun animations instead of the Blender-exported sets.
+	legacy_animations = false

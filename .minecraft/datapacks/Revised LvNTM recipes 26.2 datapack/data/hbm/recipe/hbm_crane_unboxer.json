@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "#minecraft:wooden_sticks",
+    "B": "minecraft:shears",
+    "C": "hbm:conveyor_wand"
+  },
+  "pattern": [
+    "AAA",
+    "ABA",
+    "CCC"
+  ],
+  "result": {
+    "id": "hbm:crane_unboxer",
+    "count": 4
+  }
+}

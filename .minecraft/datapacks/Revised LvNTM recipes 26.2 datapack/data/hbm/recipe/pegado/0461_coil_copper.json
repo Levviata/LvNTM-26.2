@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:ingots/mingrade",
+    "#c:ingots/dura_steel",
+    "hbm:smashing_hammer"
+  ],
+  "result": {
+    "id": "hbm:coil_copper",
+    "count": 8
+  }
+}
