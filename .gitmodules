@@ -1,3 +1,3 @@
-[submodule "LvNTM-26.2-Mods"]
-	path = .minecraft/mods
+[submodule "mods"]
+	path = .minecraft
 	url = https://github.com/Levviata/LvNTM-26.2-Mods.git
