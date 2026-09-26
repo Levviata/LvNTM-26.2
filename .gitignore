@@ -1,0 +1,15 @@
+/.minecraft/crash-reports/
+/.minecraft/defaultconfigs/
+/.minecraft/downloads/
+/.minecraft/logs/
+/.minecraft/saves/
+/.minecraft/screenshots/
+/.minecraft/server-resource-packs/
+/.minecraft/shaderpacks/
+/.minecraft/texturepacks/
+/.minecraft/xaero/
+/.minecraft/.cache/
+/.minecraft/coremods/
+/.minecraft/realms_persistence.json
+/.minecraft/usercache.json
+/.minecraft/usernamecache.json

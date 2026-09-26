@@ -22,16 +22,16 @@
             "version": "26.2"
         },
         {
-            "cachedName": "Forge",
+            "cachedName": "NeoForge",
             "cachedRequires": [
                 {
                     "equals": "26.2",
                     "uid": "net.minecraft"
                 }
             ],
-            "cachedVersion": "65.1.0",
-            "uid": "net.minecraftforge",
-            "version": "65.1.0"
+            "cachedVersion": "26.2.0.88",
+            "uid": "net.neoforged.neoforge",
+            "version": "26.2.0.88"
         }
     ],
     "formatVersion": 1
