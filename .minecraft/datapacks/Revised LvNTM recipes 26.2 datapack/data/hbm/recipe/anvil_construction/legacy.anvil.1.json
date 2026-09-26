@@ -1,0 +1,17 @@
+{
+  "type": "hbm:anvil_construction",
+  "input_items": [
+    {
+      "count": 9,
+      "ingredient": "hbm:undefined"
+    }
+  ],
+  "order": 1,
+  "output_items": [
+    {
+      "id": "hbm:glitch"
+    }
+  ],
+  "overlay": "smithing",
+  "tier": 1916169
+}

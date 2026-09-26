@@ -1,0 +1,20 @@
+{
+  "type": "hbm:anvil_construction",
+  "input_items": [
+    {
+      "ingredient": "hbm:fusion_klystron"
+    },
+    {
+      "count": 8,
+      "ingredient": "hbm:undefined"
+    }
+  ],
+  "order": 3,
+  "output_items": [
+    {
+      "id": "hbm:fusion_klystron_creative"
+    }
+  ],
+  "overlay": "smithing",
+  "tier": 1916169
+}

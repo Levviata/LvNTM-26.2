@@ -1,0 +1,19 @@
+{
+  "type": "hbm:assembly_machine",
+  "duration": 100,
+  "input_items": [
+    {
+      "ingredient": "hbm:seg_10"
+    },
+    {
+      "ingredient": "hbm:warhead_buster_medium"
+    }
+  ],
+  "order": 24,
+  "output_items": [
+    {
+      "id": "hbm:mp_warhead_10_buster"
+    }
+  ],
+  "power": 100
+}

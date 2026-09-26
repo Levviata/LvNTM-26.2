@@ -1,0 +1,19 @@
+{
+  "type": "hbm:assembly_machine",
+  "duration": 200,
+  "input_items": [
+    {
+      "ingredient": "hbm:seg_15"
+    },
+    {
+      "ingredient": "hbm:warhead_incendiary_large"
+    }
+  ],
+  "order": 30,
+  "output_items": [
+    {
+      "id": "hbm:mp_warhead_15_incendiary"
+    }
+  ],
+  "power": 100
+}

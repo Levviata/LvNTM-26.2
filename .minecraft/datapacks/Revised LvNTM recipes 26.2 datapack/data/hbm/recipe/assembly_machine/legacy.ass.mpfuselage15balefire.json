@@ -1,0 +1,25 @@
+{
+  "type": "hbm:assembly_machine",
+  "duration": 500,
+  "input_items": [
+    {
+      "count": 2,
+      "ingredient": "hbm:seg_15"
+    },
+    {
+      "count": 48,
+      "ingredient": "#hbm:plates_cast/titanium"
+    },
+    {
+      "count": 12,
+      "ingredient": "#hbm:plates_cast/saturnite"
+    }
+  ],
+  "order": 2,
+  "output_items": [
+    {
+      "id": "hbm:mp_fuselage_15_balefire"
+    }
+  ],
+  "power": 100
+}

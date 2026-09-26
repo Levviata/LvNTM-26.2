@@ -1,0 +1,17 @@
+{
+  "type": "hbm:anvil_construction",
+  "input_items": [
+    {
+      "ingredient": "#hbm:plates_cast/iron"
+    }
+  ],
+  "order": 7,
+  "output_items": [
+    {
+      "id": "hbm:platemetal",
+      "count": 4
+    }
+  ],
+  "overlay": "construction",
+  "tier": 1
+}

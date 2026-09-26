@@ -1,0 +1,21 @@
+{
+  "type": "hbm:plasma_forge",
+  "duration": 600,
+  "input_items": [
+    {
+      "count": 2,
+      "ingredient": "hbm:gun_minigun"
+    },
+    {
+      "count": 4,
+      "ingredient": "#hbm:gun_mechanisms/saturnite"
+    }
+  ],
+  "order": 0,
+  "output_items": [
+    {
+      "id": "hbm:gun_minigun_dual"
+    }
+  ],
+  "power": 1000000
+}

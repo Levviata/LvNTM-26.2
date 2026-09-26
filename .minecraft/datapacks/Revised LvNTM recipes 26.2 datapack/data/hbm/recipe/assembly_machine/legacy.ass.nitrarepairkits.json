@@ -1,0 +1,27 @@
+{
+  "type": "hbm:assembly_machine",
+  "duration": 150,
+  "input_items": [
+    {
+      "ingredient": "hbm:nitra"
+    }
+  ],
+  "order": 66,
+  "output_items": [
+    [
+      {
+        "data": {
+          "id": "hbm:gun_kit_1"
+        },
+        "weight": 1.0
+      },
+      {
+        "data": {
+          "id": "hbm:gun_kit_2"
+        },
+        "weight": 1.0
+      }
+    ]
+  ],
+  "power": 300
+}

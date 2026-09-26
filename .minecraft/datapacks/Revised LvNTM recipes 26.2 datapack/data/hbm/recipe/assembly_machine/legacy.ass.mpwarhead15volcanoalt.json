@@ -1,0 +1,19 @@
+{
+  "type": "hbm:assembly_machine",
+  "duration": 600,
+  "input_items": [
+    {
+      "ingredient": "hbm:seg_15"
+    },
+    {
+      "ingredient": "hbm:warhead_volcano"
+    }
+  ],
+  "order": 59,
+  "output_items": [
+    {
+      "id": "hbm:mp_warhead_15_volcano"
+    }
+  ],
+  "power": 100
+}

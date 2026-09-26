@@ -1,0 +1,15 @@
+{
+  "type": "hbm:shredder",
+  "input_items": [
+    {
+      "ingredient": "hbm:cigarette",
+      "count": 16
+    }
+  ],
+  "order": 1,
+  "output_items": [
+    {
+      "id": "hbm:nugget_polonium"
+    }
+  ]
+}

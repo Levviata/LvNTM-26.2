@@ -1,0 +1,28 @@
+{
+  "type": "hbm:assembly_machine",
+  "duration": 100,
+  "input_items": [
+    {
+      "ingredient": "hbm:seg_10"
+    },
+    {
+      "count": 8,
+      "ingredient": "#hbm:plates_cast/weapon_steel"
+    },
+    {
+      "count": 2,
+      "ingredient": "hbm:det_cord"
+    },
+    {
+      "count": 16,
+      "ingredient": "hbm:powder_magic"
+    }
+  ],
+  "order": 26,
+  "output_items": [
+    {
+      "id": "hbm:mp_warhead_10_cloud"
+    }
+  ],
+  "power": 100
+}

@@ -1,0 +1,17 @@
+{
+  "type": "hbm:anvil_construction",
+  "input_items": [
+    {
+      "count": 4,
+      "ingredient": "hbm:platemetal"
+    }
+  ],
+  "order": 8,
+  "output_items": [
+    {
+      "id": "hbm:plate_iron"
+    }
+  ],
+  "overlay": "recycling",
+  "tier": 1
+}

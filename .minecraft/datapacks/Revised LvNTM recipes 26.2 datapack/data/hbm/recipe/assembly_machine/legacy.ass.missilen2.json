@@ -1,0 +1,22 @@
+{
+  "type": "hbm:assembly_machine",
+  "duration": 300,
+  "input_items": [
+    {
+      "ingredient": "hbm:thruster_large"
+    },
+    {
+      "ingredient": "hbm:fuel_tank_large"
+    },
+    {
+      "ingredient": "hbm:warhead_n2"
+    }
+  ],
+  "order": 3,
+  "output_items": [
+    {
+      "id": "hbm:missile_n2"
+    }
+  ],
+  "power": 25000
+}

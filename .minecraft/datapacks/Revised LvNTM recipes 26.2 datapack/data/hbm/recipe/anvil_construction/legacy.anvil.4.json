@@ -1,0 +1,26 @@
+{
+  "type": "hbm:anvil_construction",
+  "input_items": [
+    {
+      "ingredient": "hbm:battery_spark"
+    },
+    {
+      "ingredient": "hbm:battery_trixite"
+    },
+    {
+      "ingredient": "hbm:singularity_spark"
+    },
+    {
+      "count": 8,
+      "ingredient": "hbm:undefined"
+    }
+  ],
+  "order": 4,
+  "output_items": [
+    {
+      "id": "hbm:battery_creative"
+    }
+  ],
+  "overlay": "construction",
+  "tier": 1916169
+}
