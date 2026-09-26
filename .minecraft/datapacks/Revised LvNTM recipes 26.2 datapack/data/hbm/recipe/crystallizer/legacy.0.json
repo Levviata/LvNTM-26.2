@@ -9,14 +9,13 @@
   ],
   "input_items": [
     {
+      "count": 1,
       "ingredient": "hbm:ancient_scrap"
     }
   ],
-  "order": 0,
+  "order": 4000,
   "output_items": [
-    [
       "hbm:block_schrabidium"
-    ]
   ],
-  "productivity": 1.0
+  "productivity": 0.5
 }
