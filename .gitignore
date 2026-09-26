@@ -13,3 +13,11 @@
 /.minecraft/realms_persistence.json
 /.minecraft/usercache.json
 /.minecraft/usernamecache.json
+/.minecraft/mods/
+/.minecraft/XaeroWaypoints_BACKUP240807/
+/.minecraft/config/waystones-common-1.toml.bak
+/.minecraft/config/waystones-common-2.toml.bak
+/.minecraft/config/waystones-common-3.toml.bak
+/.minecraft/config/waystones-common-4.toml.bak
+/.minecraft/command_history.txt
+/.minecraft/config/roughlyenoughitems/
