@@ -2,7 +2,7 @@
   "type": "hbm:exposure_chamber",
   "input_items": [
     {
-      "ingredient": "#hbm:storage_blocks/any_bismoid"
+      "ingredient": "hbm:block_bismuth"
     }
   ],
   "order": 0,
