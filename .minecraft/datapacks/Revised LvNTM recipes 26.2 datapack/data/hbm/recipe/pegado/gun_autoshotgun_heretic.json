@@ -2,13 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": "hbm:gun_minigun_dual",
-    "B": {
-      "neoforge:ingredient_type": "neoforge:components",
-      "components": {
-        "minecraft:custom_name": "{\"text\":\"Golden Egg\"}"
-      },
-      "items": "minecraft:egg"
-    },
+    "B": "hbm:spawn_duck",
     "C": "hbm:wild_p",
     "D": "#hbm:barrels_heavy/saturnite",
     "F": "#hbm:receivers_heavy/saturnite",
