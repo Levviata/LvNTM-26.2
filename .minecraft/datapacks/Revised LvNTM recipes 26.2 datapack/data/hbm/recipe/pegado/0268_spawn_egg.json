@@ -7,12 +7,7 @@
     "hbm:undefined"
   ],
   "result": {
-    "id": "minecraft:spawn_egg",
-    "count": 1,
-    "components": {
-      "minecraft:entity_data": {
-        "id": "hbm:entity_glyphid_nuclear"
-      }
-    }
+    "id": "hbm:entity_glyphid_nuclear_spawn_egg",
+    "count": 1
   }
 }
