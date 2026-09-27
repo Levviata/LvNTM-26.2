@@ -88,17 +88,42 @@ _version = 4
 		# Hidden blocks (IE ores) are ignored.  
 		# Expected Compression Ratio: 0.7
 		worldCompression = "VISUALLY_EQUAL"
+		#
+		# Requires a level restart to apply. 
+		# 
+		# Setting this to a less strict mode increases DB read/write
+		# speed at the cost of potential data loss/corruption if
+		# the computer looses power 
+		# (unexpected program shutdown should be safe for all options).
+		# 
+		# FULL 
+		# ACID - data will never be lost or corrupted 
+		# Slow 
+		# At max throughput: ~2k saves per sec, ~70% disk usage 
+		# 
+		# NORMAL 
+		# May not be durable - some data may be lost on power loss, but DB should be safe from corruption 
+		# Fast
+		# At max throughput: ~14k saves per sec, ~40% disk usage 
+		# 
+		# OFF 
+		# Not consistent - database may be corrupted during power loss 
+		# Very Fast
+		# At max throughput: ~16k saves per sec, ~6% disk usage
+		databaseSyncMode = "NORMAL"
 		dataCompression = "Z_STD_BLOCK"
 		#
-		# Enabling this will drastically increase chunk processing time
-		# and you may need to increase your CPU load to handle it.
+		# Enabling this will drastically speed up chunk processing time
+		# if you are CPU limited.
+		# Disabling it will drastically speed up chunk processing time
+		# if you are disk speed/IO limited.
 		# 
 		# Normally DH will attempt to skip creating LODs for chunks it's already seen
 		# and that haven't changed.
 		# 
-		# However sometimes that logic incorrectly prevents LODs from being updated.
-		# Disabling this check may fix issues where LODs aren't updated after
-		# blocks have been changed.
+		# Disabling this option can also fix a rare bug where
+		# modified chunks are skipped due to being too similar to
+		# their saved hash.
 		disableUnchangedChunkCheck = false
 
 		[common.lodBuilding.experimental]
@@ -227,6 +252,37 @@ _version = 4
 
 	[common.worldGenerator]
 		#
+		# If the SURFACE_THEN_CHUNKS generator plan is 
+		# in use, this percentage can be defined to reduce how far the 
+		# second high-quality generation pass will go 
+		# as a percentage of your total render distance: 
+		# -1.0 = Infinity
+		# 0.0 = 0%
+		# 0.5 = 50%
+		# 1.0 = 100%
+		# 2.0 = 200%
+		# 
+		# Does nothing on a dedicated server.
+		surfaceRegenMaxDistancePercent = "-1.0"
+		#
+		# The max radius in chunks around the central point where world generation is allowed. 
+		# If this value is set to 0, generation bounds are disabled and the render distance will be used. 
+		# 
+		# This should only be set if you have a pre-generated world that has a very limited size. 
+		# Setting this on a normal MC world will prevent the world generator from filling 
+		# out your render distance.
+		generationMaxChunkRadius = 0
+		#
+		# If the Minecraft server thread is taking too long 
+		# Distant Horizons will pause world gen to reduce server stuttering/lag.
+		limitIfServerUnhealthy = true
+		#
+		# The center Z chunk position that the world gen max radius is centered around.
+		generationCenterChunkZ = 0
+		#
+		# The center X chunk position that the world gen max radius is centered around.
+		generationCenterChunkX = 0
+		#
 		# How detailed should LODs be generated outside the vanilla render distance? 
 		# 
 		# PRE_EXISTING_ONLY 
@@ -258,14 +314,6 @@ _version = 4
 		# DISABLED
 		showGenerationProgress = "DISABLED"
 		#
-		# The max radius in chunks around the central point where world generation is allowed. 
-		# If this value is set to 0, generation bounds are disabled and the render distance will be used. 
-		# 
-		# This should only be set if you have a pre-generated world that has a very limited size. 
-		# Setting this on a normal MC world will prevent the world generator from filling 
-		# out your render distance.
-		generationMaxChunkRadius = 0
-		#
 		# How often should the distant generator progress be displayed?
 		generationProgressDisplayIntervalInSeconds = 2
 		#
@@ -274,21 +322,69 @@ _version = 4
 		# This can be useful for troubleshooting performance.
 		generationProgressIncludeChunksPerSecond = true
 		#
+		# How detailed should LODs be generated outside the vanilla render distance? 
+		# 
+		# PRE_EXISTING_ONLY 
+		# Only create LOD data for already generated chunks. 
+		# 
+		# FEATURES 
+		# Generate everything except structures. 
+		# Note: This may cause world generator bugs or instability when paired with certain world generator mods. 
+		# 
+		# INTERNAL_SERVER 
+		# Ask the local server to generate/load each chunk. 
+		# This is the most compatible and will generate structures correctly, 
+		# but may cause server/simulation lag. 
+		# Note: unlike other modes this option DOES save generated chunks to 
+		# Minecraft's region files.
+		chunkGeneratorMode = "FEATURES"
+		#
+		# Defines how LODs will be generated 
+		# outside the vanilla render distance. 
+		# In multiplayer, this may be overridden by the server. 
+		# 
+		# SURFACE_THEN_CHUNKS 
+		# The rough surface will be generated first 
+		# then chunks will be generated to fill in 
+		# missing features (ie trees and villages). 
+		# 
+		# Recommended for modded or vanilla worlds. 
+		# 
+		# SURFACE_ONLY 
+		# Only the rough surface will be generated. 
+		# Chunk features like trees and villages 
+		# won't be generated. 
+		# 
+		# Recommended for computers that don't have 
+		# enough CPU power or RAM space to handle 
+		# the chunk generator. 
+		# 
+		# CHUNKS_ONLY 
+		# Slower than either surface options, 
+		# but provides more accurate terrain. 
+		# 
+		# Recommended for custom worlds 
+		# where the surface generator would 
+		# generate incorrect terrain. 
+		# 
+		# DISABLED 
+		# No distant terrain will be generated.
+		generatorPlan = "SURFACE_THEN_CHUNKS"
+		#
 		# For how many seconds should instructions for disabling the distant generator progress be displayed? 
 		# Setting this to 0 hides the instructional message so the world gen progress is shown immediately when it starts.
 		generationProgressDisableMessageDisplayTimeInSeconds = 20
 		#
-		# The center Z chunk position that the world gen max radius is centered around.
-		generationCenterChunkZ = 0
+		# If true and the player/camera is moving quickly 
+		# Distant Horizons will pause world gen to improve loading speed 
+		# and reduce CPU load.
+		pauseIfMovingQuickly = true
 		#
 		# Should Distant Horizons slowly generate LODs 
 		#  outside the vanilla render distance? 
 		# Depending on the generator mode, this will import existing chunks 
 		# and/or generating missing chunks.
 		enableDistantGeneration = true
-		#
-		# The center X chunk position that the world gen max radius is centered around.
-		generationCenterChunkX = 0
 
 [client]
 	#
@@ -456,6 +552,9 @@ _version = 4
 				positionFinderMarginPercent = "0.0"
 
 		[client.advanced.graphics]
+			#
+			# Enabling Anti-Aliasing smooths edges and reduces flickering when moving.
+			enableAntiAliasing = true
 			#
 			# Enable Screen Space Ambient Occlusion
 			enableSsao = true
@@ -637,6 +736,8 @@ _version = 4
 				# A comma separated list of dimension resource locations where DH won't render. 
 				# 
 				# Example: "minecraft:the_nether,minecraft:the_end"
+				# For Minecraft 1.12.2 and older: 
+				# Open the F3 screen and copy the dimension_name:ID shown in yellow. Example: "overworld:0"
 				# 
 				# Note:
 				# Some DH settings will be disabled and/or changed to improve 
