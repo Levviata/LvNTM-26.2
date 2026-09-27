@@ -1,0 +1,12 @@
+from pathlib import Path
+
+# Change this to the folder you want to process
+ROOT = Path.cwd()
+
+for path in ROOT.rglob("*"):
+    if path.is_file() and "legacy." in path.name:
+        new_name = path.name.replace("legacy.", "")
+        new_path = path.with_name(new_name)
+
+        print(f"{path}  ->  {new_path}")
+        path.rename(new_path)
