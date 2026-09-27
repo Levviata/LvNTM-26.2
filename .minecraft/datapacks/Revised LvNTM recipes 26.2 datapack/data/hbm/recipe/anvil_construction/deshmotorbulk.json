@@ -7,15 +7,15 @@
     },
     {
       "count": 4,
-      "ingredient": "#hbm:ingots/any_hard_plastic"
+      "ingredient": "#lvntm:hardplastic"
     },
     {
       "count": 4,
-      "ingredient": "#hbm:ingots/workers_alloy"
+      "ingredient": "hbm:ingot_desh"
     },
     {
       "count": 2,
-      "ingredient": "#hbm:wires_dense/gold"
+      "ingredient": "hbm:wire_dense_gold"
     }
   ],
   "order": 9,

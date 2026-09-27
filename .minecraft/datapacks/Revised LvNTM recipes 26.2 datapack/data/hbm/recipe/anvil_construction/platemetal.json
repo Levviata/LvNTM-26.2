@@ -2,7 +2,7 @@
   "type": "hbm:anvil_construction",
   "input_items": [
     {
-      "ingredient": "#hbm:plates_cast/iron"
+      "ingredient": "hbm:plate_iron"
     }
   ],
   "order": 7,
