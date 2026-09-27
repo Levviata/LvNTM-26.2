@@ -1,0 +1,28 @@
+{
+  "type": "hbm:anvil_construction",
+  "input_items": [
+    {
+      "count": 24,
+      "ingredient": "hbm:plate_saturnite"
+    },
+    {
+      "count": 64,
+      "ingredient": "#lvntm:highexplosive"
+    },
+    {
+      "count": 64,
+      "ingredient": "hbm:casing_large_steel"
+    },
+    {
+      "ingredient": "hbm:ammo_bag"
+    }
+  ],
+  "order": 2,
+  "output_items": [
+    {
+      "id": "hbm:ammo_bag_infinite"
+    }
+  ],
+  "overlay": "smithing",
+  "tier": 5
+}

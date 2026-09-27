@@ -1,0 +1,23 @@
+{
+  "type": "hbm:assembly_machine",
+  "duration": 1200,
+  "input_items": [
+    {
+      "ingredient": "hbm:seg_15"
+    },
+    {
+      "count": 16,
+      "ingredient": "hbm:powder_magic"
+    },
+    {
+      "ingredient": "hbm:warhead_mirv"
+    }
+  ],
+  "order": 30,
+  "output_items": [
+    {
+      "id": "hbm:mp_warhead_15_boxcar"
+    }
+  ],
+  "power": 100
+}

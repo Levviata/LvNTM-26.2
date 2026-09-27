@@ -1,0 +1,12 @@
+{
+  "type": "hbm:outgasser",
+  "input_items": [
+    {
+      "ingredient": "hbm:meteorite_sword_bred"
+    }
+  ],
+  "order": 1000,
+  "output_items": [
+    "hbm:meteorite_sword_irradiated"
+  ]
+}

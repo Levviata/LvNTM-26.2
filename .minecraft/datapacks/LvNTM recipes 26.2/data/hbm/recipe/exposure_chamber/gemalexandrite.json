@@ -2,11 +2,14 @@
   "type": "hbm:exposure_chamber",
   "input_items": [
     {
+      "ingredient": "hbm:particle_amat"
+    },
+    {
       "ingredient": "hbm:block_bismuth"
     }
   ],
-  "order": 0,
+  "order": 6,
   "output_items": [
-      "hbm:gem_alexandrite"
+    "hbm:gem_alexandrite"
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "type": "hbm:outgasser",
+  "input_items": [
+    {
+      "ingredient": "#c:gems/diamond"
+    }
+  ],
+  "order": 1001,
+  "output_items": [
+    "hbm:gem_rad"
+  ]
+}
