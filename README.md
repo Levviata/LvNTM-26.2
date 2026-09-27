@@ -29,9 +29,8 @@ A lightweight Nuclear Tech modpack with Applied Energistics 2 and Chunkloaders, 
   - Balefire shard
   - And many more.
 
-- 4 custom Texture Packs
+- 3 custom Texture Packs
   - New textures for weapons and tools
-  - 1.7.10 texture parity (for the best)
   - Pixelguru's Dubious Textures, cherry-picked and tweaked by me. Block, GUI, and item retextures
   - Extended lang entries (proper LEGACY tags, fixed and tweaked names)
 
@@ -42,7 +41,7 @@ I tweaked many recipes to make the game easier, for example book of boxcar pages
 
 ## Trivia
 
-- The modpack's birthday is the 25 of September of 2026.
+- The modpack's birthday is the 25 of September 2026.
 
 - Kick started from Elobomg's NTM Next Simple Pack
 
