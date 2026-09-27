@@ -1,11 +1,11 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "hbm:stamp_stone_flat",
+    "#lvntm:stamp",
     "hbm:gun_minigun",
     "hbm:nuke_fstbmb",
-    "#c:ingots/euphemium",
-    "#c:ingots/schrabidium",
+    "hbm:ingot_euphemium",
+    "hbm:ingot_schrabidium",
     "hbm:flame_pony"
   ],
   "result": {

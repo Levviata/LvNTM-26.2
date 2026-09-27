@@ -1,10 +1,10 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "hbm:stamp_stone_flat",
+    "#lvntm:stamp",
     "#c:dusts/dura_steel",
     "#c:dusts/steel",
-    "hbm:powder_desh",
+    "#lvntm:deshpowder",
     "hbm:flame_opinion"
   ],
   "result": {

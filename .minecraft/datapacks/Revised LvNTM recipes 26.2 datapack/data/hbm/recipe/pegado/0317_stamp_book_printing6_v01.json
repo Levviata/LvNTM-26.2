@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
-    "hbm:stamp_stone_flat",
+    "#lvntm:stamp",
     "#c:dusts/cadmium",
     "#c:ingots/ferrouranium",
     "#c:ingots/fiberglass",
