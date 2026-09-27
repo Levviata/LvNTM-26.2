@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "B": "hbm:plate_polymer",
-    "A": "hbm:part_generic",
+    "A": "hbm:part_generic_piston_pneumatic",
     "C": "hbm:circuit_chip_bismoid"
   },
   "pattern": [

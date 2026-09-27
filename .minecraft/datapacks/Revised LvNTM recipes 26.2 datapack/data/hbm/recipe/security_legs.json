@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "A": "hbm:plate_steel",
-    "P": "#hbm:ingots/any_plastic",
+    "A": "hbm:plate_polymer",
+    "P": "#lvntm:hardplastic",
     "K": "hbm:plate_kevlar"
   },
   "pattern": [
-    "A A",
+    "PAP",
     "K K",
-    "P P"
+    "A A"
   ],
   "result": {
-    "id": "hbm:security_boots"
+    "id": "hbm:security_legs"
   }
 }

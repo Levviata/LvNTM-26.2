@@ -2,8 +2,8 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": "hbm:ingot_steel",
-    "B": "#hbm:ingots/any_plastic",
-    "G": "hbm:reinforced_glass_pane",
+    "B": "#lvntm:hardplastic",
+    "G": "#lvntm:reinforcedpane",
     "K": "hbm:plate_kevlar",
     "S": "hbm:plate_steel"
   },

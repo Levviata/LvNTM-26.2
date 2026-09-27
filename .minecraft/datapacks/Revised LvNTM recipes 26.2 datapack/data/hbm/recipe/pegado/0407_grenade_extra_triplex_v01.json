@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "A": "#c:plates/steel",
-    "B": "hbm:grenade_shell_frag",
+    "A": "hbm:plate_steel",
+    "B": "#lvntm:grenadeshell",
     "C": "hbm:powder_magic"
   },
   "pattern": [

@@ -1,0 +1,13 @@
+{
+  "values": [
+    "hbm:insert_du",
+    "hbm:insert_esapi",
+    "hbm:insert_sapi",
+    "hbm:insert_xsapi",
+    "hbm:insert_kevlar",
+    "hbm:insert_polonium",
+    "hbm:insert_steel",
+    "hbm:insert_yharonite",
+    "hbm:insert_era"
+  ]
+}

@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": "#c:ingots/steel",
-    "B": "hbm:part_generic",
+    "B": "hbm:part_generic_piston_pneumatic",
     "C": "hbm:circuit_basic"
   },
   "pattern": [

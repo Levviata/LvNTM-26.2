@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "A": "minecraft:skull",
+    "A": "minecraft:skeleton_skull",
     "B": "#hbm:barrels_light/saturnite",
     "C": "#hbm:receivers_light/saturnite",
     "D": "#hbm:gun_mechanisms/saturnite",

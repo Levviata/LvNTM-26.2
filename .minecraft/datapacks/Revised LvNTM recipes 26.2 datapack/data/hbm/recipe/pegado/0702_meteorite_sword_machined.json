@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "A": "hbm:circuit_crystal",
+    "A": "hbm:circuit_advanced",
     "B": "hbm:meteorite_sword_alloyed",
     "G": "hbm:wire_dense_gold"
   },
