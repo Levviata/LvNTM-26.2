@@ -8,11 +8,11 @@
     },
     {
       "count": 32,
-      "ingredient": "#hbm:plates_cast/aluminum"
+      "ingredient": "hbm:plate_aluminium"
     },
     {
       "count": 12,
-      "ingredient": "#hbm:plates_cast/weapon_steel"
+      "ingredient": "hbm:plate_weaponsteel"
     }
   ],
   "order": 37,

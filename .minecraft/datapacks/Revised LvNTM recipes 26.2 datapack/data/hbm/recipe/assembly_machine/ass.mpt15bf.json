@@ -7,15 +7,15 @@
     },
     {
       "count": 5,
-      "ingredient": "#hbm:pipes/dura_steel"
+      "ingredient": "hbm:pipe_dura_steel"
     },
     {
       "count": 48,
-      "ingredient": "#hbm:plates_cast/tungsten"
+      "ingredient": "hbm:plate_cast_tungsten"
     },
     {
       "count": 16,
-      "ingredient": "#hbm:plates_cast/saturnite"
+      "ingredient": "hbm:plate_saturnite"
     }
   ],
   "order": 50,

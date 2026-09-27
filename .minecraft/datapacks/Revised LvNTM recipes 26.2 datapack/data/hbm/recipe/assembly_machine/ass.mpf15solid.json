@@ -8,11 +8,11 @@
     },
     {
       "count": 32,
-      "ingredient": "#hbm:plates_cast/titanium"
+      "ingredient": "hbm:plate_titanium"
     },
     {
       "count": 12,
-      "ingredient": "#hbm:plates_cast/weapon_steel"
+      "ingredient": "hbm:plate_weaponsteel"
     }
   ],
   "order": 38,

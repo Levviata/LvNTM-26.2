@@ -1,0 +1,31 @@
+{
+  "type": "hbm:assembly_machine",
+  "duration": 200,
+  "input_items": [
+    {
+      "ingredient": "hbm:seg_15"
+    },
+    {
+      "count": 18,
+      "ingredient": "hbm:plate_weaponsteel"
+    },
+    {
+      "count": 8,
+      "ingredient": "#lvntm:highexplosive"
+    },
+    {
+      "count": 8,
+      "ingredient": "hbm:powder_fire"
+    },
+    {
+      "ingredient": "hbm:circuit_advanced"
+    }
+  ],
+  "order": 30,
+  "output_items": [
+    {
+      "id": "hbm:mp_warhead_15_incendiary"
+    }
+  ],
+  "power": 100
+}

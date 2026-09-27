@@ -8,11 +8,11 @@
     },
     {
       "count": 48,
-      "ingredient": "#hbm:plates_cast/titanium"
+      "ingredient": "hbm:plate_titanium"
     },
     {
       "count": 12,
-      "ingredient": "#hbm:plates_cast/saturnite"
+      "ingredient": "hbm:plate_saturnite"
     }
   ],
   "order": 2,

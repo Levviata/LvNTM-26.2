@@ -7,15 +7,15 @@
     },
     {
       "count": 3,
-      "ingredient": "#hbm:pipes/dura_steel"
+      "ingredient": "hbm:pipe_dura_steel"
     },
     {
       "count": 8,
-      "ingredient": "#c:ingots/tungsten"
+      "ingredient": "hbm:ingot_tungsten"
     },
     {
       "count": 8,
-      "ingredient": "#hbm:plates_cast/weapon_steel"
+      "ingredient": "hbm:plate_weaponsteel"
     }
   ],
   "order": 45,

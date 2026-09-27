@@ -6,22 +6,22 @@
       "ingredient": "hbm:seg_15"
     },
     {
-      "count": 3,
-      "ingredient": "hbm:pipe_dura_steel"
-    },
-    {
-      "count": 8,
-      "ingredient": "hbm:ingot_tungsten"
-    },
-    {
-      "count": 8,
+      "count": 18,
       "ingredient": "hbm:plate_weaponsteel"
+    },
+    {
+      "count": 8,
+      "ingredient": "hbm:n2_charge"
+    },
+    {
+      "count": 1,
+      "ingredient": "hbm:circuit_advanced"
     }
   ],
-  "order": 46,
+  "order": 18,
   "output_items": [
     {
-      "id": "hbm:mp_thruster_15_solid_hexdecuple"
+      "id": "hbm:mp_warhead_15_n2"
     }
   ],
   "power": 100

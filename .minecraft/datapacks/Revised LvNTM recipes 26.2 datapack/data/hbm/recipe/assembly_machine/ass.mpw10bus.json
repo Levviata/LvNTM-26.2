@@ -10,18 +10,17 @@
       "ingredient": "hbm:plate_weaponsteel"
     },
     {
-      "count": 2,
-      "ingredient": "hbm:det_cord"
+      "count": 8,
+      "ingredient": "#lvntm:highexplosive"
     },
     {
-      "count": 16,
-      "ingredient": "hbm:powder_magic"
+      "ingredient": "hbm:circuit_basic"
     }
   ],
-  "order": 26,
+  "order": 24,
   "output_items": [
     {
-      "id": "hbm:mp_warhead_10_cloud"
+      "id": "hbm:mp_warhead_10_buster"
     }
   ],
   "power": 100

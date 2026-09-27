@@ -1,6 +1,6 @@
 {
   "type": "hbm:assembly_machine",
-  "duration": 400,
+  "duration": 200,
   "input_items": [
     {
       "ingredient": "hbm:seg_15"
@@ -10,7 +10,7 @@
     },
     {
       "count": 6,
-      "ingredient": "hbm:ball_tatb"
+      "ingredient": "#lvntm:highexplosive"
     }
   ],
   "order": 15,

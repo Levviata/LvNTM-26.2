@@ -7,7 +7,7 @@
     },
     {
       "count": 8,
-      "ingredient": "#hbm:plates_cast/weapon_steel"
+      "ingredient": "hbm:plate_weaponsteel"
     },
     {
       "count": 2,
@@ -18,7 +18,11 @@
       "ingredient": "hbm:powder_magic"
     },
     {
-      "ingredient": "hbm:fluid_tank"
+      "ingredient": {
+        "neoforge:ingredient_type": "hbm:fluid_content",
+        "amount": 1000,
+        "fluid": "hbm:watz_mud"
+      }
     }
   ],
   "order": 25,

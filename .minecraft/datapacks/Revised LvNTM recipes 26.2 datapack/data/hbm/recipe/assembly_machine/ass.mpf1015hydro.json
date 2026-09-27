@@ -10,11 +10,11 @@
     },
     {
       "count": 24,
-      "ingredient": "#hbm:plates_cast/copper"
+      "ingredient": "hbm:plate_copper"
     },
     {
       "count": 8,
-      "ingredient": "#hbm:plates_cast/steel"
+      "ingredient": "hbm:plate_steel"
     }
   ],
   "order": 35,

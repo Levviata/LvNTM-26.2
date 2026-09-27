@@ -8,11 +8,11 @@
     },
     {
       "count": 32,
-      "ingredient": "#hbm:plates_cast/copper"
+      "ingredient": "hbm:plate_copper"
     },
     {
       "count": 12,
-      "ingredient": "#hbm:plates_cast/weapon_steel"
+      "ingredient": "hbm:plate_weaponsteel"
     }
   ],
   "order": 39,

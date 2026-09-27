@@ -1,0 +1,33 @@
+{
+  "type": "hbm:assembly_machine",
+  "duration": 200,
+  "input_items": [
+    {
+      "ingredient": "hbm:seg_15"
+    },
+    {
+      "count": 18,
+      "ingredient": "hbm:plate_weaponsteel"
+    },
+    {
+      "count": 16,
+      "ingredient": "hbm:billet_pu239"
+    },
+    {
+      "count": 16,
+      "ingredient": "hbm:neutron_reflector"
+    },
+    {
+      "count": 24,
+      "ingredient": "#lvntm:highexplosive"
+    },
+    {
+      "ingredient": "hbm:circuit_controller"
+    }
+  ],
+  "order": 15,
+  "output_items": [
+    "hbm:mp_warhead_15_nuclear"
+  ],
+  "power": 100
+}
