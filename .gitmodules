@@ -1,3 +1,0 @@
-[submodule ".minecraft/mods"]
-	path = .minecraft/mods
-	url = https://github.com/Levviata/mods.git
