@@ -1,6 +1,13 @@
 {
   "pack": {
-    "pack_format": 3,
-    "description": "Removes the electric chainsaw kill sound. By Levviata"
+    "description": "Removes the electric chainsaw kill sound. By Levviata",
+    "min_format": [
+      88,
+      0
+    ],
+    "max_format": [
+      88,
+      0
+    ]
   }
 }

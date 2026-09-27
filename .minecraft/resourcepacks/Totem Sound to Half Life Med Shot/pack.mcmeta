@@ -1,6 +1,13 @@
 {
   "pack": {
-    "pack_format": 3,
-    "description": "Replaces Totem use sound to getting heal in Half Life 1. By Levviata"
+    "description": "Replaces Totem use sound to getting heal in Half Life 1. By Levviata",
+    "min_format": [
+      88,
+      0
+    ],
+    "max_format": [
+      88,
+      0
+    ]
   }
 }

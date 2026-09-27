@@ -1,0 +1,38 @@
+{
+  "type": "hbm:assembly_machine",
+  "duration": 600,
+  "input_items": [
+    {
+      "count": 18,
+      "ingredient": "hbm:plate_weaponsteel"
+    },
+    {
+      "count": 16,
+      "ingredient": "hbm:billet_pu239"
+    },
+    {
+      "count": 24,
+      "ingredient": "#lvntm:highexplosive"
+    },
+    {
+      "count": 16,
+      "ingredient": "hbm:neutron_reflector"
+    },
+    {
+      "ingredient": "hbm:circuit_controller_advanced"
+    },
+    {
+      "ingredient": "hbm:fluid_barrel",
+      "predicates": {
+        "hbm:fluid_content": "hbm:deuterium"
+      }
+    }
+  ],
+  "order": 15,
+  "output_items": [
+    {
+      "id": "hbm:warhead_mirv"
+    }
+  ],
+  "power": 100
+}

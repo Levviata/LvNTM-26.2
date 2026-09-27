@@ -1,6 +1,13 @@
 {
   "pack": {
-    "pack_format": 3,
-    "description": "Lang for missing or deprecated entries. By Levviata"
+    "description": "Extended and concise lang. By Levviata",
+    "min_format": [
+      88,
+      0
+    ],
+    "max_format": [
+      88,
+      0
+    ]
   }
 }

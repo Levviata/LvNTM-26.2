@@ -1,6 +1,13 @@
 {
   "pack": {
-    "pack_format": 3,
-    "description": "Cherry picked textures from Pixelguru26, with a side of LevviataInc."
+    "description": "Cherry picked textures from Pixelguru26, with a side of LevviataInc.",
+    "min_format": [
+      88,
+      0
+    ],
+    "max_format": [
+      88,
+      0
+    ]
   }
 }
