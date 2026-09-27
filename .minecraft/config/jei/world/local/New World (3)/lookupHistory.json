@@ -1,0 +1,23 @@
+[
+  {"version":1},
+  {"ingredient":{"id":"hbm:ammo_bag_infinite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:ball_tatb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:fluid_barrel_infinite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:casing_large_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:casing_small_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:casing_buckshot_advanced"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:cordite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:ballistite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:undefined"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:gun_n_i_4_n_i"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:sat_gerald"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:ammo_standard_nuke_demo"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:ammo_standard_nuke_standard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:ammo_standard_coil_ferrouranium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:ammo_standard_coil_tungsten"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:ammo_standard_bmg50_sp"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:ammo_standard_bmg50_he"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:machine_exposure_chamber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:ingot_tcalloy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:particle_digamma"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+]
