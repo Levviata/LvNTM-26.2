@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:smelting",
+  "category": "misc",
+  "ingredient": "hbm:scrap",
+  "result": {
+    "id": "hbm:ingot_steel"
+  },
+  "experience": 0.7,
+  "cookingtime": 200
+}
