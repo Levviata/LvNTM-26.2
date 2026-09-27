@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "A": "hbm:coil_copper",
+    "A": "hbm:coil_gold",
     "C": "#c:plates/iron"
   },
   "pattern": [
@@ -10,7 +10,7 @@
     " A "
   ],
   "result": {
-    "id": "hbm:coil_copper_torus",
+    "id": "hbm:coil_gold_torus",
     "count": 2
   }
 }

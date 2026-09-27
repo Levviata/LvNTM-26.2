@@ -1,9 +1,16 @@
 {
-  "type": "minecraft:crafting_shapeless",
-  "ingredients": [
-    "minecraft:structure_void"
+  "type": "minecraft:crafting_shaped",
+  "key": {
+    "A": "hbm:coil_copper",
+    "C": "#c:plates/steel"
+  },
+  "pattern": [
+    " A ",
+    "ACA",
+    " A "
   ],
   "result": {
-    "id": "minecraft:barrier"
+    "id": "hbm:coil_copper_torus",
+    "count": 4
   }
 }

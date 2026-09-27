@@ -1,16 +1,16 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "A": "hbm:coil_copper",
-    "C": "#c:plates/iron"
+    "A": "hbm:wire_fine_tungsten",
+    "C": "#c:ingots/steel"
   },
   "pattern": [
-    " A ",
+    "AAA",
     "ACA",
-    " A "
+    "AAA"
   ],
   "result": {
-    "id": "hbm:coil_copper_torus",
+    "id": "hbm:coil_tungsten",
     "count": 2
   }
 }

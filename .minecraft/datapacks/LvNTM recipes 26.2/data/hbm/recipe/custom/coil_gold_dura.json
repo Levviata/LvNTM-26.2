@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:ingots/gold",
+    "#c:ingots/dura_steel"
+  ],
+  "result": {
+    "id": "hbm:coil_gold",
+    "count": 4
+  }
+}

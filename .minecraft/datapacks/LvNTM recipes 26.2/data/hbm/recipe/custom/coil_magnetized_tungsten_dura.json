@@ -1,0 +1,11 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    "#c:ingots/magnetized_tungsten",
+    "#c:ingots/dura_steel"
+  ],
+  "result": {
+    "id": "hbm:coil_magnetized_tungsten",
+    "count": 4
+  }
+}

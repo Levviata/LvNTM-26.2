@@ -1,7 +1,7 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "A": "hbm:wire_fine_mingrade",
+    "A": "hbm:wire_fine_magnetized_tungsten",
     "C": "#c:ingots/steel"
   },
   "pattern": [
@@ -10,7 +10,7 @@
     "AAA"
   ],
   "result": {
-    "id": "hbm:coil_copper",
+    "id": "hbm:coil_magnetized_tungsten",
     "count": 2
   }
 }

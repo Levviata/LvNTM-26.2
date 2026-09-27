@@ -1,8 +1,8 @@
 {
   "type": "minecraft:crafting_shaped",
   "key": {
-    "A": "hbm:wire_fine_mingrade",
-    "C": "#c:ingots/iron"
+    "A": "hbm:wire_fine_gold",
+    "C": "#c:ingots/steel"
   },
   "pattern": [
     "AAA",
@@ -10,6 +10,7 @@
     "AAA"
   ],
   "result": {
-    "id": "hbm:coil_copper"
+    "id": "hbm:coil_gold",
+    "count": 2
   }
 }
