@@ -1,6 +1,13 @@
 [
   {"version":1},
+  {"ingredient":{"id":"hbm:wild_p"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:scrumpy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:canned_stew"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:ammo_bag"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:ammo_bag_infinite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:machine_exposure_chamber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:mp_warhead_15_boxcar"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"ingredient":{"id":"hbm:missile_custom","components":"{\"hbm:missile_chip\":\"hbm:mp_c_5\",\"hbm:missile_parts\":{fins:\"hbm:mp_stability_15_thin\",fuselage:\"hbm:mp_fuselage_15_kerosene_blackjack\",thruster:\"hbm:mp_thruster_15_kerosene\",warhead:\"hbm:mp_warhead_15_boxcar\"},\"minecraft:custom_name\":{color:\"red\",text:\"Auntie Blackjack\"}}"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:ball_tatb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:fluid_barrel_infinite"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:casing_large_steel"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -17,7 +24,6 @@
   {"ingredient":{"id":"hbm:ammo_standard_coil_tungsten"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:ammo_standard_bmg50_sp"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:ammo_standard_bmg50_he"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"hbm:machine_exposure_chamber"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:ingot_tcalloy"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:particle_digamma"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

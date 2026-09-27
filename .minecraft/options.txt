@@ -211,6 +211,12 @@ key_gui.xaero_map_zoom_in:key.keyboard.unknown
 key_gui.xaero_map_zoom_out:key.keyboard.unknown
 key_gui.xaero_quick_confirm:key.keyboard.right.shift
 key_gui.xaero_toggle_dimension:key.keyboard.unknown
+key_iris.keybind.reload:key.keyboard.r
+key_iris.keybind.toggleShaders:key.keyboard.k
+key_iris.keybind.shaderPackSelection:key.keyboard.i
+key_iris.keybind.wireframe:key.keyboard.unknown
+key_key.guideme.guide:key.keyboard.g
+key_chunkloaders.keys.open_screen:key.keyboard.c
 key_key.hbm.craneUp:key.keyboard.up
 key_key.hbm.craneDown:key.keyboard.down
 key_key.hbm.craneLeft:key.keyboard.left
@@ -267,6 +273,11 @@ key_key.jei.previousCategory:key.keyboard.page.up:SHIFT
 key_key.jei.nextCategory:key.keyboard.page.down:SHIFT
 key_key.jei.closeRecipeGui:key.keyboard.escape
 key_key.jei.copy.recipe.id:key.keyboard.unknown
+key_key.ae2.mouse_wheel_item_modifier:key.keyboard.left.shift
+key_key.ae2.part_placement_opposite:key.keyboard.left.control
+key_key.ae2.portable_item_cell:key.keyboard.unknown
+key_key.ae2.portable_fluid_cell:key.keyboard.unknown
+key_key.ae2.wireless_terminal:key.keyboard.unknown
 key_lambdynlights.key.toggle_fps_dynamic_lighting:key.keyboard.unknown
 soundCategory_master:0.31125827814569534
 soundCategory_music:0.0
