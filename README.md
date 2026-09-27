@@ -32,7 +32,7 @@ A lightweight Nuclear Tech modpack with Applied Energistics 2 and Chunkloaders, 
 - 3 custom Texture Packs
   - New textures for weapons and tools
   - Pixelguru's Dubious Textures, cherry-picked and tweaked by me. Block, GUI, and item retextures
-  - Extended lang entries (proper LEGACY tags, fixed and tweaked names)
+  - Extended lang entries (tweaked names)
 
 - 99% made with Levviata Brain Power(TM).
 
