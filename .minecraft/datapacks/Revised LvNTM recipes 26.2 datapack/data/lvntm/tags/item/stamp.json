@@ -1,0 +1,9 @@
+{
+  "values": [
+    "hbm:stamp_stone_flat",
+    "hbm:stamp_iron_flat",
+    "hbm:stamp_steel_flat",
+    "hbm:stamp_obsidian_flat",
+    "hbm:stamp_desh_flat"
+  ]
+}
