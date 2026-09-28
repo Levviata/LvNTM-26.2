@@ -3,7 +3,7 @@
   "key": {
     "A": "hbm:plate_polymer",
     "C": "#c:tiny_dusts/niobium",
-    "B": "hbm:wire_fine_aluminum"
+    "B": "#lvntm:capacitoraptwire"
   },
   "pattern": [
     "ACA",

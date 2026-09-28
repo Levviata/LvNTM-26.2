@@ -2,15 +2,15 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": "hbm:plate_polymer",
-    "C": "#c:dusts/aluminum",
-    "B": "hbm:wire_fine_copper"
+    "C": "hbm:powder_tantalium",
+    "B": "#lvntm:capacitoraptwire"
   },
   "pattern": [
     "ACA",
     "B B"
   ],
   "result": {
-    "id": "hbm:circuit_capacitor",
-    "count": 2
+    "id": "hbm:circuit_capacitor_tantalium",
+    "count": 4
   }
 }

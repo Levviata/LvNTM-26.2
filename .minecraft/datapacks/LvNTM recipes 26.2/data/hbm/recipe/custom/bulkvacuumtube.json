@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "key": {
     "A": "minecraft:glass_pane",
-    "C": "hbm:wire_fine_carbon",
+    "C": "#lvntm:vacuumtubeaptwire",
     "B": "hbm:plate_polymer"
   },
   "pattern": [
