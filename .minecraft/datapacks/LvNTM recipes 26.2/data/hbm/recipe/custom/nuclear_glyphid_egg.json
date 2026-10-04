@@ -2,9 +2,8 @@
   "type": "minecraft:crafting_shapeless",
   "ingredients": [
     "hbm:egg_glyphid",
-    "hbm:undefined",
-    "hbm:undefined",
-    "hbm:undefined"
+    "#lvntm:mininuke",
+    "hbm:plate_steel"
   ],
   "result": {
     "id": "hbm:entity_glyphid_nuclear_spawn_egg",

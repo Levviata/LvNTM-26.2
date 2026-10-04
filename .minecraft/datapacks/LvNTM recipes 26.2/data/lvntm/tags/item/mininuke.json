@@ -1,0 +1,9 @@
+{
+  "values": [
+    "hbm:ammo_standard_nuke_standard",
+    "hbm:ammo_standard_nuke_demo",
+    "hbm:ammo_standard_nuke_high",
+    "hbm:ammo_standard_nuke_tots",
+    "hbm:ammo_standard_nuke_balefire"
+  ]
+}
