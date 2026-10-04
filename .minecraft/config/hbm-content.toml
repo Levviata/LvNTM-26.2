@@ -21,6 +21,8 @@
 	simple_medicine = true
 	#When enabled, prevents crates from becoming radioactive
 	safe_crates = true
+	#When enabled, prevents ME Drives and Portable Cells from becoming radioactive
+	safe_me_drives = true
 
 [foreign_mods]
 	#Master switch for this mod's changes to other mods' recipes; each change also has its own entry. Takes effect on restart.
@@ -43,3 +45,5 @@
 	machine_gravity = true
 	#Keeps the RBMK dial for ReaSim boilers on, preventing use of non-ReaSim boiler columns and forcing the use of steam in-/outlets
 	force_reasim_boilers = true
+	#Enables anti tank mines spawning all over the world.
+	bosnia_simulator = true

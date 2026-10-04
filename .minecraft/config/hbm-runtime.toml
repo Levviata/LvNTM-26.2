@@ -34,7 +34,7 @@
 	# Default: 2
 	# Range: > 1
 	item_hazard_drop_tickrate = 2
-	#Audit every loaded container every 20 ticks, so an armed item that left a mod's opaque storage without notifying still detonates. Costs a walk of all loaded chunks and entities.
+	#Recover unreported changes in loaded entity and player inventories every 20 ticks. Block storage requires slot notifications and is never audited.
 	unstable_recovery_sweep = false
 
 [explosions]
