@@ -59,7 +59,3 @@ replaced in ntm next, 1.7.10 par so its ugly and without skins
 25. hbm:coil_copper ×8 — shapeless — Groovy line 463 — same output exists, but ingredients/recipe are different
 26. hbm:coil_gold ×8 — shapeless — Groovy line 504 — same output exists, but ingredients/recipe are different
 27. hbm:coil_magnetized_tungsten ×8 — shapeless — Groovy line 528 — same output exists, but ingredients/recipe are different
-
-### to add
-28. hbm:can_empty — furnace — Groovy line 631
-29. hbm:powder_spark — shapeless — Groovy line 637
