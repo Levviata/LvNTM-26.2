@@ -1,5 +1,9 @@
 [
   {"version":1},
+  {"ingredient":{"id":"hbm:ammo_standard_nuke_demo"},"type":"item_stack","bookmarkType":"INGREDIENT"},
+  {"recipe":"hbm:mine_fat","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"hbm:missile_micro","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"hbm:bomb_caller_nuke","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
   {"ingredient":{"id":"hbm:bottle_opener"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:brick_obsidian"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:block_schrabidium"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -22,7 +26,6 @@
   {"ingredient":{"id":"hbm:ammo_standard_nuke_high"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:ammo_standard_nuke_balefire"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:ammo_standard_nuke_tots"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"hbm:ammo_standard_nuke_demo"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:ammo_standard_nuke_standard"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:bomb_caller_atomic_bomb"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:gun_drill"},"type":"item_stack","bookmarkType":"INGREDIENT"},
@@ -96,8 +99,5 @@
   {"ingredient":{"id":"hbm:meteorite_sword_irradiated"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:meteorite_sword_bred"},"type":"item_stack","bookmarkType":"INGREDIENT"},
   {"ingredient":{"id":"hbm:meteorite_sword_etched"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"hbm:meteorite_sword_treated"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"hbm:meteorite_sword_machined"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"hbm:meteorite_sword_alloyed"},"type":"item_stack","bookmarkType":"INGREDIENT"},
-  {"ingredient":{"id":"hbm:pellet_rtg"},"type":"item_stack","bookmarkType":"INGREDIENT"}
+  {"ingredient":{"id":"hbm:meteorite_sword_treated"},"type":"item_stack","bookmarkType":"INGREDIENT"}
 ]

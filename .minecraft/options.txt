@@ -270,12 +270,12 @@ key_key.hbm.gunPrimary:key.mouse.left
 key_key.hbm.gunSecondary:key.mouse.right
 key_key.hbm.gunTertiary:key.mouse.middle
 key_key.hbm.reload:key.keyboard.r
-key_key.hbm.toggleHUD:key.keyboard.v
+key_key.hbm.toggleHUD:key.keyboard.h
 key_key.hbm.toggleBack:key.keyboard.c
 key_key.hbm.toggleMagnet:key.keyboard.z
 key_key.hbm.dash:key.keyboard.left.shift
 key_key.hbm.trainInv:key.keyboard.r
-key_key.hbm.ability:key.mouse.right
+key_key.hbm.ability:key.keyboard.v
 key_key.hbm.abilityAlt:key.keyboard.left.alt
 key_key.hbm.tooltipDetails:key.keyboard.left.shift
 key_key.hbm.presentation:key.keyboard.left.shift
