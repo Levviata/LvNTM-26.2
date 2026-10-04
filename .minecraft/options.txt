@@ -65,7 +65,7 @@ highContrast:false
 highContrastBlockOutline:false
 narratorHotkey:true
 resourcePacks:["vanilla","mod_resources","mod/hbm:resourcepacks/ctm_fusion","file/Remove Chainsaw Sound","file/Totem Sound to Half Life Med Shot","file/Levviata\u0027s NTM Weapons \u0026 Tools","file/Levviata\u0027s NTM Lang"]
-incompatibleResourcePacks:[]
+incompatibleResourcePacks:["file/Levviata\u0027s NTM Weapons \u0026 Tools"]
 lastServer:
 lang:en_us
 chatVisibility:0
