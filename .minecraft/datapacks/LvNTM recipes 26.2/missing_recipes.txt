@@ -1,13 +1,3 @@
-# missing recipes
-
-Groovy: original recipes
-Datapack: ported recipes
-
-# summary
-
-Groovy recipes: 133
-Datapack recipes: 121
-
 # missing (1.12.2 exclusive or fixed in ntm next)
 
 1. hbm:lung_diagnostic — shaped — Groovy line 14
