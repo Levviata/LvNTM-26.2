@@ -14,7 +14,7 @@ A lightweight Nuclear Tech modpack with Applied Energistics 2 and Chunkloaders, 
 
 ## Features
 
-- X Custom recipes that implement new recipes, rebalances, and Quality of Life. Some notable ones:
+- 198 Custom recipes that implement new recipes, rebalances, and Quality of Life. Some notable ones:
   - Coilgun
   - Mkunicorn
   - Double Barrel Shotgun (An Old Classic)
@@ -37,15 +37,17 @@ A lightweight Nuclear Tech modpack with Applied Energistics 2 and Chunkloaders, 
 - 99% made with Levviata Brain Power(TM).
 
 ## Notes
+For shaders you may use https://modrinth.com/shader/bsl-shaders
+
 I tweaked many recipes to make the game easier, for example book of boxcar pages or the Heretic, if you are a hardcore factorio or masochism fan I don't recommend.
 
 ## Trivia
 
 - The modpack's birthday is the 25 of September 2026.
 
-- Kick started from Elobomg's NTM Next Simple Pack
-
 - Over +700 hours of development counting this and the [1.12.2 modpack](https://github.com/Levviata/Levviatas-Nuclear-Tech-Modpack).
+
+- Kick started from Elobomg's NTM Next Simple Pack
 
 #### It was all planned
 your satisfaction is measured.
