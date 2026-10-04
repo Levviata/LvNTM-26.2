@@ -17,7 +17,8 @@ empty_recipe = {
 total_recipes = 0
 empty_recipes = 0
 
-for file in folder.glob("*.json"):
+# Search this folder and all nested folders
+for file in folder.rglob("*.json"):
     try:
         with file.open("r", encoding="utf-8") as f:
             data = json.load(f)
@@ -29,7 +30,7 @@ for file in folder.glob("*.json"):
         total_recipes += 1
 
     except (json.JSONDecodeError, OSError) as e:
-        print(f"Skipped {file.name}: {e}")
+        print(f"Skipped {file}: {e}")
 
 print(f"Recipes found: {total_recipes}")
 print(f"Empty recipes ignored: {empty_recipes}")
