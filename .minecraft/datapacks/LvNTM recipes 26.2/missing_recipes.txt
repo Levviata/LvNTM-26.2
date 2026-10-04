@@ -1,6 +1,6 @@
 # missing recipes
 
-Reference: https://github.com/Levviata/Levviatas-Nuclear-Tech-Modpack/blob/master/minecraft/groovy/postInit/recipe.groovy (original recipes)
+Groovy: original recipes
 Datapack: ported recipes
 
 # summary
