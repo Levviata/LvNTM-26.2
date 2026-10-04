@@ -4,7 +4,7 @@
     "minecraft:egg",
     "hbm:gas_mask_m65",
     "hbm:plate_steel",
-    "minecraft:circuit_basic",
+    "hbm:circuit_basic",
     {
       "neoforge:ingredient_type": "neoforge:components",
       "components": {
