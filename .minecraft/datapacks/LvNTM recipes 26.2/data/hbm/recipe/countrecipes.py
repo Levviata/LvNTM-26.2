@@ -35,3 +35,5 @@ for file in folder.rglob("*.json"):
 print(f"Recipes found: {total_recipes}")
 print(f"Empty recipes ignored: {empty_recipes}")
 print(f"Total JSON files: {total_recipes + empty_recipes}")
+
+input("Press Enter to exit...")
