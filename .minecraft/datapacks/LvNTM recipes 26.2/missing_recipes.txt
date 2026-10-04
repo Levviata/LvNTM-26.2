@@ -1,0 +1,65 @@
+# missing recipes
+
+Reference: https://github.com/Levviata/Levviatas-Nuclear-Tech-Modpack/blob/master/minecraft/groovy/postInit/recipe.groovy (original recipes)
+Datapack: ported recipes
+
+# summary
+
+Groovy recipes: 133
+Datapack recipes: 121
+
+# missing (1.12.2 exclusive or fixed in ntm next)
+
+1. hbm:lung_diagnostic — shaped — Groovy line 14
+2. hbm:defuser_desh — shaped — Groovy line 88
+3. hbm:det_n2 — shaped — Groovy line 113
+4. hbm:det_bale — shaped — Groovy line 137
+5. hbm:spinny_light — shaped — Groovy line 150
+6. hbm:wand_s — shaped — Groovy line 212
+7. hbm:wand_k — shaped — Groovy line 221
+8. hbm:fire_digamma ×64 — shapeless — Groovy line 260 — no item
+9. hbm:digamma_matter ×64 — shapeless — Groovy line 261 — no item
+10. hbm:missile_taint — shapeless — Groovy line 276 — fixed in ntm next
+11. hbm:taint ×4 — shapeless — Groovy line 278 — no item
+12. hbm:block_slag — shaped — Groovy line 330
+replaced in ntm next, 1.7.10 par so its ugly and without skins
+13. hbm:sliding_blast_door_legacy — shapeless — Groovy line 341 — "legacy" = better 1.12.2 exclusive
+14. hbm:sliding_blast_door_2 — shapeless — Groovy line 342
+15. hbm:sliding_blast_door_skin0 — shapeless — Groovy line 363
+16. hbm:sliding_blast_door_skin1 — shapeless — Groovy line 364
+17. hbm:sliding_blast_door_skin2 — shapeless — Groovy line 365
+18. hbm:sliding_blast_door_skin0 — shapeless — Groovy line 370
+19. hbm:sliding_blast_door_skin1 — shapeless — Groovy line 371
+20. hbm:sliding_blast_door_skin2 — shapeless — Groovy line 372
+21. hbm:gun_b92 — shapeless — Groovy line 377
+22. hbm:gun_b93 — shapeless — Groovy line 378
+24. hbm:mp_stability_20_flat — shaped — Groovy line 398
+30. hbm:ncrpa_helmet — shapeless — Groovy line 664 — screwdriver variant 1
+31. hbm:ncrpa_helmet — shapeless — Groovy line 665 — screwdriver_desh variant
+32. hbm:ncrpa_plate — shapeless — Groovy line 666 — screwdriver variant 1
+33. hbm:ncrpa_plate — shapeless — Groovy line 667 — screwdriver_desh variant
+34. hbm:ncrpa_legs — shapeless — Groovy line 668 — screwdriver variant 1
+35. hbm:ncrpa_legs — shapeless — Groovy line 669 — screwdriver_desh variant
+36. hbm:ncrpa_boots — shapeless — Groovy line 670 — screwdriver variant 1
+37. hbm:ncrpa_boots — shapeless — Groovy line 671 — screwdriver_desh variant
+38. hbm:rpa_helmet — shapeless — Groovy line 673 — screwdriver variant 1
+39. hbm:rpa_helmet — shapeless — Groovy line 674 — screwdriver_desh variant
+40. hbm:rpa_plate — shapeless — Groovy line 675 — screwdriver variant 1
+41. hbm:rpa_plate — shapeless — Groovy line 676 — screwdriver_desh variant
+42. hbm:rpa_legs — shapeless — Groovy line 677 — screwdriver variant 1
+43. hbm:rpa_legs — shapeless — Groovy line 678 — screwdriver_desh variant
+44. hbm:rpa_boots — shapeless — Groovy line 679 — screwdriver variant 1
+45. hbm:rpa_boots — shapeless — Groovy line 680 — screwdriver_desh variant
+46. hbm:jetpack_glider — shaped — Groovy line 742
+47. hbm:meteorite_sword_treated — shapeless — Groovy line 782 — 1000mB variant removed due to crafting table ingredient count limit
+48. hbm:fabsols_vodka — shapeless — Groovy line 862
+
+## present and tweaked
+23. hbm:mp_warhead_15_boxcar — shaped — Groovy line 383
+25. hbm:coil_copper ×8 — shapeless — Groovy line 463 — same output exists, but ingredients/recipe are different
+26. hbm:coil_gold ×8 — shapeless — Groovy line 504 — same output exists, but ingredients/recipe are different
+27. hbm:coil_magnetized_tungsten ×8 — shapeless — Groovy line 528 — same output exists, but ingredients/recipe are different
+
+### to add
+28. hbm:can_empty — furnace — Groovy line 631
+29. hbm:powder_spark — shapeless — Groovy line 637
