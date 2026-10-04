@@ -1,0 +1,6 @@
+[
+  {"version":3},
+  {"recipe":"hbm:mine_fat","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"hbm:missile_micro","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"},
+  {"recipe":"hbm:bomb_caller_nuke","recipeType":"minecraft:crafting","bookmarkType":"RECIPE"}
+]
