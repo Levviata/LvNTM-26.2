@@ -56,7 +56,9 @@
 .minecraft/saves
 .minecraft/screenshots
 .minecraft/server-resource-packs
+.minecraft/shaderpacks
 .minecraft/texturepacks
 .minecraft/usercache.json
 .minecraft/usernamecache.json
 .minecraft/xaero
+todo.txt
