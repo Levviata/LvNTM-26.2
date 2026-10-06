@@ -1,3 +1,10 @@
+## Download 
+
+| Version | CurseForge | Modrinth | GitHub |
+| -------- | -------- | -------- | -------- |
+| 1.12.2    | <p align="center"> <a href="https://www.curseforge.com/minecraft/modpacks/levviatas-nuclear-tech"> <img src="https://github.com/Levviata/levviata/blob/1f2472ea3aaef3504b6a83e4bb012bbc6f32b54c/icons/curseforge-badge.svg" width="32" height="32"> </a> </p>  | <p align="center"> <a href="https://modrinth.com/modpack/levviatas-nuclear-tech-pack"> <img src="https://github.com/Levviata/levviata/blob/371af51717d86541dd3cd50c1dc06b3ad64d012e/icons/modrinth.svg" width="32" height="32"> </a> </p>   | <p align="center"> <a href="https://github.com/Levviata/Levviatas-Nuclear-Tech-Modpack/tree/master"> <img src="https://github.com/Levviata/levviata/blob/242e72b2d09d9a81c189fa243539d58a725fb9e2/icons/github-dark.svg" width="32" height="32"> </a> </p>   |
+| 26.2    | <p align="center"> <a href="https://www.curseforge.com/minecraft/modpacks/levviatas-next-nuclear-tech"> <img src="https://github.com/Levviata/levviata/blob/1f2472ea3aaef3504b6a83e4bb012bbc6f32b54c/icons/curseforge-badge.svg" width="32" height="32"> </a> </p>  | <p align="center"> <a href="https://modrinth.com/modpack/levviatas-next-nuclear-tech"> <img src="https://github.com/Levviata/levviata/blob/371af51717d86541dd3cd50c1dc06b3ad64d012e/icons/modrinth.svg" width="32" height="32"> </a> </p>   | <p align="center"> <a href="https://github.com/Levviata/LvNTM-26.2"> <img src="https://github.com/Levviata/levviata/blob/242e72b2d09d9a81c189fa243539d58a725fb9e2/icons/github-dark.svg" width="32" height="32"> </a> </p>   |
+
 # Levviata's Next Nuclear Tech (a 26.2 NeoForge modpack)
 
 A lightweight Nuclear Tech modpack with Applied Energistics 2 and Chunkloaders, ported and extended from my same [Nuclear Tech 1.12.2 modpack](https://www.curseforge.com/minecraft/modpacks/levviatas-nuclear-tech).
